@@ -1,0 +1,39 @@
+body {
+  font-family: 'Nanum Gothic', sans-serif;
+  color: #FFCC00;
+  background-color: #1A1A1A;
+  font-weight: bolder;
+}
+
+a.nextPage:link, a.nextPage:visited, a.prevPage:link, a.prevPage:visited {
+  background-color: #1A1A1A;
+  color: #FFCC00;
+  border: 2px solid #646464;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a.nextPage:hover, a.nextPage:active, a.prevPage:hover, a.prevPage:active {
+  background-color: #646464;
+  color: #FFCC00;
+  border: 2px solid #646464;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+}
+
+
+.pageButton {
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.resources {
+  color: #FF5050;
+}
